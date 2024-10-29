@@ -1,24 +1,15 @@
+# 🌡️💡 Micro:bit - Sensor de Temperatura y Luz 🎶
 
-> Obre aquesta pàgina a [https://raimonizard.github.io/microbit-template-repo/](https://raimonizard.github.io/microbit-template-repo/)
+Este programa detecta la temperatura y el nivel de luz en el micro:bit, mostrando mensajes y reproduciendo melodías según las condiciones. ¡Perfecto para saber si hace calor o frío y si hay mucha o poca luz! 😊
 
-## Utilitza-ho com a extensió
+## 🚀 ¿Qué hace este programa?
 
-Aquest dipòsit es pot afegir com una **extensió** a MakeCode.
+🔄 **Siempre está activo**:
+1. **Temperatura** 🌡️:
+   - Si la temperatura es **mayor a 22 °C**, muestra **"Calor"**.
+   - Si es **22 °C o menos**, muestra **"Frio"**.
 
-* obre [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* fes clic a **Projecte nou**
-* fes clic a **Extensions** sota el menú de la roda dentada
-* cercar **https://github.com/raimonizard/microbit-template-repo** i importar
+2. **Luz** 💡:
+   - Si el nivel de luz es **más de 200**, toca una 🎵 **melodía alegre**.
+   - Si el nivel de luz es **menos de 50**, toca una 🎶 **melodía tranquila**.
 
-## Edita aquest projecte
-
-Per editar aquest repositori a MakeCode.
-
-* obre [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* fes clic a ** Importa** i després a ** Importa URL**
-* enganxa **https://github.com/raimonizard/microbit-template-repo** i clica importar
-
-#### Metadades (utilitzades per a la cerca, renderització)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
